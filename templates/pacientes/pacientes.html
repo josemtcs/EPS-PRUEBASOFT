@@ -1,0 +1,86 @@
+{% extends 'layouts/layoutPrincipal.html' %}
+{% load static %}
+{% block content %}
+
+    <div class="tablePage">
+    {% if messages %}
+        {% for message in messages %}
+            <div class="alert alert-success">
+                {{ message }}
+            </div>
+        {% endfor %}
+    {% endif %}
+    <a href="{% url 'crear_paciente' %} " class="text-decoration-none text-black">
+        <div class="add-button">
+            <button class="button-content">
+                <p>Agregar</p>
+            </button>
+        </div>
+    </a>
+        {% if pacientes %}
+        <table class="tableData">
+            <tr>
+                <th scope="col">Primer Nombre</th>
+                <th scope="col">Segundo Nombre</th>
+                <th scope="col">Primer Apellido</th>
+                <th scope="col">Segundo Apellido</th>
+                <th scope="col">Tipo Documento</th>
+                <th scope="col">Numero Documento</th>
+                <th scope="col">EPS</th>
+                <th scope="col">Discapacidades</th>
+                <th scope="col">Acciones</th>
+            </tr>
+            {% for paciente in pacientes %}
+            <tr>
+                <td id="{{ paciente.uuid }}" scope="row">{{ paciente.primer_nombre }}</td>
+                <td>{{ paciente.segundo_nombre }}</td>
+                <td>{{ paciente.primer_apellido }}</td>
+                <td>{{ paciente.segundo_apellido }}</td>
+                <td>{{ paciente.tipo_documento }}</td>
+                <td>{{ paciente.numero_documento }}</td>
+                <td>{{ paciente.entidad }}</td>
+                <td>    {% for disc in paciente.discapacidad.all %}
+                            {{ disc.calDiscapacidad }}{% if not forloop.last %}, {% endif %}
+                        {% empty %}
+                            Sin discapacidades
+                        {% endfor %}
+                </td>
+                <td>
+                    <div class="button-group">
+                        
+                         <button class="eliminate-button" onclick="confirmarEliminacion({{ usuario.idUsuario }})">
+                            <ion-icon name="trash-outline" class="icon-table"></ion-icon>
+                        </button>
+                    </div>
+                </td>
+                {% endfor %}
+            </tr>
+        </table>
+        {% else %}
+            <h1>No hay datos de los pacientes</h1>
+        {% endif %}
+    </div>
+    <script>
+function confirmarEliminacion(id) {
+    if (confirm("¿Estás seguro de que deseas eliminar este paciente?")) {
+        fetch(`/eliminar_servicio/${id}/`, {
+            method: "POST",
+            headers: {
+                "X-CSRFToken": "{{ csrf_token }}"
+            }
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.success) {
+                // Recargar la página o eliminar la fila de la tabla
+                location.reload(); // O puedes eliminar la fila directamente si lo prefieres
+            } else {
+                alert("Error al eliminar el servicio");
+            }
+        })
+        .catch(error => console.error("Error:", error));
+    }
+}
+</script>
+{% endblock %}
+

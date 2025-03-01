@@ -1,0 +1,69 @@
+{% extends 'layouts/layoutPrincipal.html' %}
+{% block content %}
+    {% load widget_tweaks %}
+    <!--**********************FORMULARIO PARA LA EDICION DE SERVICIOS***********************-->
+<h2 class="title-servicio">Editar Servicio</h2>
+    <div class="form-servicios">
+<form method="post">
+    {% csrf_token %}
+    <div class="content-formServicios">
+        <div class="content-form">
+           {{ form.usuario.label }} {{ form.usuario|add_class:"select-form" }}
+            {{ form.prestador_salud.label }} {{ form.prestador_salud|add_class:"select-form" }}
+            {{ form.fecha_atencion.label }} {{ form.fecha_atencion|add_class:"select-form" }}
+            {{ form.hora_atencion.label }} {{ form.hora_atencion|add_class:"select-form" }}
+            {{ form.modalidad_servicio.label }} {{ form.modalidad_servicio|add_class:"select-form" }}
+            {{ form.grupo_servicio.label }} {{ form.grupo_servicio|add_class:"select-form" }}
+        </div>
+        <div class="content-form">
+        {{ form.via_ingreso.label }} {{ form.via_ingreso|add_class:"select-form" }}
+        {{ form.entorno_atencion.label }} {{ form.entorno_atencion|add_class:"select-form" }}
+        {{ form.causa_atencion.label }} {{ form.causa_atencion|add_class:"select-form" }}
+        {{ form.diagnostico.label }} {{ form.diagnostico|add_class:"select-form" }}
+            {{ form.t_diagnostico.label }} {{ form.t_diagnostico|add_class:"select-form" }}
+            <label for="id_triage">Añadir Triage:</label>
+                {{ form.triage|add_class:"select-form" }}
+            <button type="button" class="button-triage" data-bs-toggle="modal" data-bs-target="#addTriageModal">
+                + Añadir Triage
+            </button>
+        </div>
+
+
+    </div>
+            <div class="button-container">
+            <button type="submit" class="button-submit">Guardar Servicio</button>
+        </div>
+</form>
+    </div>
+    
+        <script>
+function submitTriageForm() {
+    // Obtiene los datos del formulario del Triage
+    const formData = new FormData(document.getElementById('triageForm'));
+
+    // Realiza la solicitud AJAX para enviar el formulario
+    fetch("{% url 'crear_triage' %}", {
+        method: "POST",
+        headers: {
+            "X-CSRFToken": formData.get('csrfmiddlewaretoken')
+        },
+        body: formData
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.success) {
+            // Añade el nuevo Triage al campo de selección
+            const triageSelect = document.getElementById("id_triage");
+            const newOption = new Option(data.clasificacion, data.id, false, true);
+            triageSelect.add(newOption);
+
+        } else {
+            alert("Error al guardar el triage");
+        }
+    })
+    .catch(error => console.error("Error:", error));
+    
+}
+
+</script>
+{% endblock %}

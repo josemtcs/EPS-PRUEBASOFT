@@ -1,0 +1,213 @@
+/*Estilos generales*/
+
+* {
+    font-family: "Noto Sans", sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.link-enlace {
+    text-decoration: none;
+    color: black;
+}
+/*---------------------*/
+
+/*Estilos barra de navegacion*/
+.navigate {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.navigationBar {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgb(165, 164, 164);
+    border-radius: 30px;
+    padding: 10px 8px 8px 20px;
+    min-width: 85vh;
+    background-color: rgb(241, 246, 253);
+}
+
+.optionsNav {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+
+.elementNav {
+    padding: 10px 8px;
+    border-radius: 30px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.elementNav:hover {
+    background-color: rgb(231, 231, 231);
+}
+
+.elementNav h3 {
+    font-size: 14px;
+    font-weight: 400;
+    position: relative;
+    top: 1px;
+}
+
+.logoNav {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.logoNav a p {
+    position: relative;
+    top: 5px;
+}
+/**/
+
+/**/
+.content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+/*Boton agregar*/
+.add-button {
+    display: flex;
+    justify-content: end;
+    padding: 30px 20px;
+}
+
+.button-content {
+    background-color: #198754;
+    width: 100px;
+    height: auto;
+    position: relative;
+    border: 0.5px solid rgb(88, 88, 88);
+    border-radius: 10px;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    text-align: center;
+}
+
+.button-content p {
+    position: relative;
+    top: 5px;
+}
+
+.button-content:hover {
+    background-color: rgb(47, 90, 46);
+}
+/*------------------*/
+
+/*Estilos tabla*/
+.tablePage  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 30px 100px;
+}
+
+.tableData {
+    border-collapse: separate;
+    border-spacing: 0px;
+    border-radius: 10px;
+    border: 1px solid rgb(199, 199, 199);
+    overflow: hidden;
+}
+
+.tableData th, .tableData td {
+    padding: 15px;
+    text-align: left;
+    font-size: 14px;
+    text-align: center;
+}
+
+.tableData th {
+    background-color: rgb(235, 244, 255);
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    border-bottom: 1px solid rgb(199, 199, 199);
+}
+
+.tableData td {
+    border-bottom: 1px solid rgb(199, 199, 199);
+}
+
+.tableData tr:last-child td {
+    border-bottom: none; /* Elimina el borde inferior de la última fila */
+}
+
+/*Estilos botones*/
+
+.button-group {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.edit-button {
+    background-color: #ffc107;
+    border: 0.5px solid rgb(88, 88, 88);
+    border-radius: 10px;
+    color: black;
+    cursor: pointer;
+    font-size: 25px;
+    padding: 3px 5px;
+}
+
+.edit-button:hover {
+    background-color: #daa507;
+}
+
+.eliminate-button {
+    background-color: #dc3545;
+    font-size: 14px;
+    border: 0.5px solid rgb(88, 88, 88);
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 3px 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.eliminate-button:hover {
+    background-color: #af2a37;
+}
+/*************************/
+
+/*-----------------------*/
+/**/
+.footerPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 13px;
+    padding: 5px;
+}
+/**/

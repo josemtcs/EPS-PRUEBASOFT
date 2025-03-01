@@ -1,0 +1,50 @@
+/* estilos.css */
+.navbar-custom {
+  background: linear-gradient(50deg, #00f3ff, #2575fc); /* Fondo degradado */
+  border-radius: 5px; /* Bordes redondeados */
+  padding: 10px 20px;
+  border: 3px solid  white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+.navbar-custom .navbar-brand {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+
+
+}
+
+.navbar-custom .nav-link {
+  color: black;
+  font-size: 1.1rem;
+  margin: 0 10px;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+  border-bottom: 2px solid transparent; /* Transición de bordes */
+
+}
+
+.navbar-custom .nav-link:hover {
+  color: #ffdf6c; /* Cambia el color al hacer hover */
+  border-bottom: 2px solid #ffdf6c; /* Añade borde en la parte inferior al hacer hover */
+}
+
+.navbar-custom .nav-link.active {
+  border-bottom: 2px solid white; /* Subrayar el enlace activo */
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler-icon {
+  background-color: aquamarine;
+}
+body{
+  background-color: white;
+}
+
+.titulo1{
+  color: black;
+}

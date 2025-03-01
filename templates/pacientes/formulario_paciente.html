@@ -1,0 +1,90 @@
+{% extends 'layouts/layoutPrincipal.html' %}
+{% block content %}
+    {% load widget_tweaks %}
+    <!--**********************FORMULARIO PARA LA CREACION DE SERVICIOS***********************-->
+         <h2>Crear Nuevo Paciente</h2>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.primer_nombre.label }} {{ form.primer_nombre }}
+        {{ form.segundo_nombre.label }} {{ form.segundo_nombre }}
+        {{ form.primer_apellido.label }} {{ form.primer_apellido }}
+        {{ form.segundo_apellido.label }} {{ form.segundo_apellido }}
+        {{ form.fecha_nacimiento.label }} {{ form.fecha_nacimiento }}
+        {{ form.hora_nacimiento.label }} {{ form.hora_nacimiento }}
+        {{ form.sexo_biologico.label }} {{ form.sexo_biologico }}
+        {{ form.ident_genero.label }} {{ form.ident_genero }}
+        {{ form.ocupacion.label }} {{ form.ocupacion }}
+        {{ form.discapacidad.label }} {{ form.discapacidad }}
+        {{ form.nacionalidad.label }} {{ form.nacionalidad }}
+        {{ form.pais_residencia.label }} {{ form.pais_residencia }}
+        {{ form.departamento_municipio.label }} {{ form.departamento_municipio }}
+        {{ form.comunidad_etnia.label }} {{ form.comunidad_etnia }}
+        {{ form.etnia.label }} {{ form.etnia }}
+        {{ form.zona_residencia.label }} {{ form.zona_residencia }}
+        {{ form.entidad.label }} {{ form.entidad }}
+
+        <label for="id_donacion">Oposicion Donacion:</label>
+                {{ form.donacion }}
+        <button type="button" class="button-triage" data-bs-toggle="modal" data-bs-target="#addDonacionModal">
+                + Añadir Donacion
+        </button>
+
+        <button type="submit">Crear Usuario</button>
+    </form>
+
+    <!--******************VENTANA MODAL DONACION**********************-->
+    <div class="modal fade" id="addDonacionModal" tabindex="-1" aria-labelledby="addDonacionModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="addDonacionModalLabel">Añadir Nueva Donacion</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+            </div>
+            <div class="modal-body">
+                <form id="DonacionForm">
+                    {% csrf_token %}
+                    <label for="fechaDonacion">Fecha Donacion:</label>
+                    <input type="date" name="fechaDonacion" class="form-control" required>
+                    <label for="manifestacionOpo">Manifestacion Donacion:</label>
+                    <select name="manifestacionOpo" class="form-control">
+                        <option value="01">Si</option>
+                        <option value="02">No</option>
+                    </select>
+                    <button type="button" class="button-content mt-2" onclick="submitDonacionForm()">Guardar Donacion</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!--******************************************************************************************-->
+    <script>
+
+function submitDonacionForm() {
+    // Obtiene los datos del formulario del Triage
+    const formData = new FormData(document.getElementById('DonacionForm'));
+
+    // Realiza la solicitud AJAX para enviar el formulario
+    fetch("{% url 'crear_donacion' %}", {
+        method: "POST",
+        headers: {
+            "X-CSRFToken": formData.get('csrfmiddlewaretoken')
+        },
+        body: formData
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.success) {
+            // Añade el nuevo Triage al campo de selección
+            const OposicionDonacionSelect = document.getElementById("id_donacion");
+            const newOption = new Option(data.manifestacion, data.id, false, true);
+            OposicionDonacionSelect.add(newOption);
+
+        } else {
+            alert("Error al guardar la donacion");
+        }
+    })
+    .catch(error => console.error("Error:", error));
+
+}
+    </script>
+{% endblock %}

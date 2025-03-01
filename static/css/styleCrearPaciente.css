@@ -1,0 +1,87 @@
+* {
+    font-family: "Noto Sans", sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.form-servicios {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-formServicios {
+    display: flex;
+    justify-content: center;
+}
+
+.content-form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 500vh;
+    padding: 20px 25px;
+    gap: 10px;
+}
+
+.select-form {
+    max-width: 80vh;
+    min-width: 80vh;
+    border: 0.5px solid #5c5c5c;
+    border-radius: 30px;
+    font-size: 15px;
+    padding: 5px 4px;
+    font-weight: 300;
+}
+
+.select-form option {
+    font-size: 13px;
+}
+
+.title-servicio {
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    padding: 30px 10px;
+}
+
+.button-submit {
+    width: 30vh;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #198754;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button-submit:hover {
+    background-color: #115135;
+}
+.content-form {
+    text-align: start;
+}
+
+.button-triage {
+    width: 20vh;
+    padding: 10px;
+    font-size: 13px;
+    background-color: #198754;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button-triage:hover {
+    background-color: #115135;
+}
