@@ -1,0 +1,115 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"b9ad3342-7362-45fc-9e0d-7eed14c81958\" name=\"Changes\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"DjangoConsoleOptions\" custom-start-script=\"import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)\">\r\n    <option name=\"myCustomStartScript\" value=\"import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Python Script\" />\r\n        <option value=\"HTML File\" />\r\n        <option value=\"CSS File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"testing\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;josemtcs&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/josemtcs/EPS-PRUEBASOFT.git&quot;,\r\n    &quot;accountId&quot;: &quot;3bcb2b46-37b7-45b4-9bf5-e292d946a19e&quot;\r\n  }\r\n}</component>\r\n  <component name=\"HighlightingSettingsPerFile\">\r\n    <setting file=\"file://$PROJECT_DIR$/static/css/index.css\" root0=\"SKIP_INSPECTION\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 2\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2mNkXlDhH4KPIcFUaqKG4Vyx32c\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,\r\n    &quot;Django Server.IPSSaludYVida.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.manage.executor&quot;: &quot;Run&quot;,\r\n    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.pycharm.django.structure.promotion.once.per.project&quot;: &quot;true&quot;,\r\n    &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;main&quot;,\r\n    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;C:/Users/josem/OneDrive/Documentos/ClaseTendencias/EPS-PRUEBASOFT&quot;,\r\n    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,\r\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,\r\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RunManager\" selected=\"Django Server.IPSSaludYVida\">\r\n    <configuration name=\"manage\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"IPSSaludYVida\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <EXTENSION ID=\"PythonCoverageRunConfigurationExtension\" runner=\"coverage.py\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/manage.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"IPSSaludYVida\" type=\"Python.DjangoServer\" factoryName=\"Django server\">\r\n      <module name=\"IPSSaludYVida\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n        <env name=\"DJANGO_SETTINGS_MODULE\" value=\"IPSSaludYVida.settings\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"launchJavascriptDebuger\" value=\"false\" />\r\n      <option name=\"port\" value=\"8000\" />\r\n      <option name=\"host\" value=\"localhost\" />\r\n      <option name=\"additionalOptions\" value=\"\" />\r\n      <option name=\"browserUrl\" value=\"\" />\r\n      <option name=\"runTestServer\" value=\"false\" />\r\n      <option name=\"runNoReload\" value=\"false\" />\r\n      <option name=\"useCustomRunCommand\" value=\"false\" />\r\n      <option name=\"customRunCommand\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Python.manage\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.18034.82\" />\r\n        <option value=\"bundled-python-sdk-975db3bf15a3-2767605e8bc2-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.18034.82\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"b9ad3342-7362-45fc-9e0d-7eed14c81958\" name=\"Changes\" comment=\"\" />\r\n      <created>1726924462394</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1726924462394</updated>\r\n      <workItem from=\"1726924463733\" duration=\"467000\" />\r\n      <workItem from=\"1727491254940\" duration=\"192000\" />\r\n      <workItem from=\"1727491458978\" duration=\"732000\" />\r\n      <workItem from=\"1727523002344\" duration=\"336000\" />\r\n      <workItem from=\"1727626761658\" duration=\"2314000\" />\r\n      <workItem from=\"1728350996306\" duration=\"494000\" />\r\n      <workItem from=\"1729337080924\" duration=\"1764000\" />\r\n      <workItem from=\"1729340640970\" duration=\"28000\" />\r\n      <workItem from=\"1729340683753\" duration=\"51000\" />\r\n      <workItem from=\"1729340814874\" duration=\"43000\" />\r\n      <workItem from=\"1729340869672\" duration=\"1173000\" />\r\n      <workItem from=\"1729366099221\" duration=\"16191000\" />\r\n      <workItem from=\"1729384992347\" duration=\"474000\" />\r\n      <workItem from=\"1729442508791\" duration=\"759000\" />\r\n      <workItem from=\"1729812810187\" duration=\"9526000\" />\r\n      <workItem from=\"1729824030502\" duration=\"208000\" />\r\n      <workItem from=\"1729825385499\" duration=\"586000\" />\r\n      <workItem from=\"1729897707940\" duration=\"3563000\" />\r\n      <workItem from=\"1729901336950\" duration=\"957000\" />\r\n      <workItem from=\"1730506428789\" duration=\"3599000\" />\r\n      <workItem from=\"1730550149488\" duration=\"830000\" />\r\n      <workItem from=\"1731027194376\" duration=\"2000\" />\r\n      <workItem from=\"1731152511272\" duration=\"65000\" />\r\n      <workItem from=\"1731777493450\" duration=\"177000\" />\r\n      <workItem from=\"1732059757454\" duration=\"84000\" />\r\n      <workItem from=\"1732060239976\" duration=\"263000\" />\r\n      <workItem from=\"1732582170842\" duration=\"51000\" />\r\n      <workItem from=\"1740332182697\" duration=\"39000\" />\r\n      <workItem from=\"1740332245057\" duration=\"1266000\" />\r\n      <workItem from=\"1740611216827\" duration=\"508000\" />\r\n      <workItem from=\"1740784486361\" duration=\"31000\" />\r\n      <workItem from=\"1740784544147\" duration=\"18000\" />\r\n      <workItem from=\"1740786145999\" duration=\"718000\" />\r\n      <workItem from=\"1740786881133\" duration=\"345000\" />\r\n      <workItem from=\"1740830371598\" duration=\"203000\" />\r\n      <workItem from=\"1740830597465\" duration=\"832000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Configuracion settings y Url\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1727525369557</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1727525369557</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Popo\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1729339761020</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1729339761020</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Popo\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1729825826018</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1729825826018</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"Hice el repositorio para empezar el proyecto\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1740830434406</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1740830434406</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"Hice el repositorio para empezar el proyecto\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1740830456238</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1740830456238</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"6\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Configuracion settings y Url\" />\r\n    <MESSAGE value=\"Popo\" />\r\n    <MESSAGE value=\"Hice el repositorio para empezar el proyecto\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Hice el repositorio para empezar el proyecto\" />\r\n  </component>\r\n  <component name=\"com.intellij.coverage.CoverageDataManagerImpl\">\r\n    <SUITE FILE_PATH=\"coverage/IPSSaludyVida$manage.coverage\" NAME=\"manage Coverage Results\" MODIFIED=\"1740332287088\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision dae60c1c891a259ac04acf5b42c5b023e9b4a230)
++++ b/.idea/workspace.xml	(date 1741217913089)
+@@ -4,9 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="b9ad3342-7362-45fc-9e0d-7eed14c81958" name="Changes" comment="">
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-    </list>
++    <list default="true" id="b9ad3342-7362-45fc-9e0d-7eed14c81958" name="Changes" comment="Creacion de ramas develop y feacture-Jose, subida archivos relleno, ningun cambio en general" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -27,7 +25,7 @@
+   <component name="Git.Settings">
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+       <map>
+-        <entry key="$PROJECT_DIR$" value="testing" />
++        <entry key="$PROJECT_DIR$" value="Develop" />
+       </map>
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+@@ -55,28 +53,28 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent">{
+-  &quot;keyToString&quot;: {
+-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+-    &quot;Django Server.IPSSaludYVida.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.manage.executor&quot;: &quot;Run&quot;,
+-    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.pycharm.django.structure.promotion.once.per.project&quot;: &quot;true&quot;,
+-    &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR&quot;,
+-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+-    &quot;last_opened_file_path&quot;: &quot;C:/Users/josem/OneDrive/Documentos/ClaseTendencias/EPS-PRUEBASOFT&quot;,
+-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "DefaultHtmlFileTemplate": "HTML File",
++    "Django Server.IPSSaludYVida.executor": "Run",
++    "Python.manage.executor": "Run",
++    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
++    "django.template.preview.state": "SHOW_EDITOR",
++    "git-widget-placeholder": "Feature-Jose",
++    "ignore.virus.scanning.warn.message": "true",
++    "last_opened_file_path": "C:/Users/josem/OneDrive/Documentos/ClaseTendencias/EPS-PRUEBASOFT",
++    "list.type.of.created.stylesheet": "CSS",
++    "node.js.detected.package.eslint": "true",
++    "node.js.detected.package.tslint": "true",
++    "node.js.selected.package.eslint": "(autodetect)",
++    "node.js.selected.package.tslint": "(autodetect)",
++    "nodejs_package_manager_path": "npm",
++    "settings.editor.selected.configurable": "preferences.pluginManager",
++    "vue.rearranger.settings.migration": "true"
+   }
+-}</component>
++}]]></component>
+   <component name="RunManager" selected="Django Server.IPSSaludYVida">
+     <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+       <module name="IPSSaludYVida" />
+@@ -184,6 +182,7 @@
+       <workItem from="1740786881133" duration="345000" />
+       <workItem from="1740830371598" duration="203000" />
+       <workItem from="1740830597465" duration="832000" />
++      <workItem from="1741216649072" duration="408000" />
+     </task>
+     <task id="LOCAL-00001" summary="Configuracion settings y Url">
+       <option name="closed" value="true" />
+@@ -225,7 +224,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1740830456238</updated>
+     </task>
+-    <option name="localTasksCounter" value="6" />
++    <task id="LOCAL-00006" summary="Creacion de ramas develop y feacture-Jose, subida archivos relleno, ningun cambio en general">
++      <option name="closed" value="true" />
++      <created>1741217877921</created>
++      <option name="number" value="00006" />
++      <option name="presentableId" value="LOCAL-00006" />
++      <option name="project" value="LOCAL" />
++      <updated>1741217877921</updated>
++    </task>
++    <option name="localTasksCounter" value="7" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -246,7 +253,8 @@
+     <MESSAGE value="Configuracion settings y Url" />
+     <MESSAGE value="Popo" />
+     <MESSAGE value="Hice el repositorio para empezar el proyecto" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Hice el repositorio para empezar el proyecto" />
++    <MESSAGE value="Creacion de ramas develop y feacture-Jose, subida archivos relleno, ningun cambio en general" />
++    <option name="LAST_COMMIT_MESSAGE" value="Creacion de ramas develop y feacture-Jose, subida archivos relleno, ningun cambio en general" />
+   </component>
+   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+     <SUITE FILE_PATH="coverage/IPSSaludyVida$manage.coverage" NAME="manage Coverage Results" MODIFIED="1740332287088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
