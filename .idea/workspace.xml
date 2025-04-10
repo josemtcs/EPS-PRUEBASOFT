@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9ad3342-7362-45fc-9e0d-7eed14c81958" name="Changes" comment="">
+    <list default="true" id="b9ad3342-7362-45fc-9e0d-7eed14c81958" name="Changes" comment="Creacion de ramas develop y feacture-Jose, subida archivos relleno, ningun cambio en general">
+      <change afterPath="$PROJECT_DIR$/.github/workflows/django-ci.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinica/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinica/tests/test_Oposicion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinica/tests/test_PaginaPaciente.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinica/tests/test_VistaServicio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinica/tests/test_formsNombre.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/clinica/tests.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,16 +25,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="testing" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -59,12 +66,23 @@
   &quot;keyToString&quot;: {
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;Django Server.IPSSaludYVida.executor&quot;: &quot;Run&quot;,
+    &quot;Django tests.Test: clinica.tests.SimplePageTest.executor&quot;: &quot;Run&quot;,
+    &quot;Django tests.Test: clinica.tests.SimplePageTest.test_home_page.executor&quot;: &quot;Run&quot;,
+    &quot;Django tests.Test: clinica.tests.testServicioSalud.ServicioSaludTest.executor&quot;: &quot;Run&quot;,
+    &quot;Django tests.Test: clinica.tests.testServicioSalud.ServicioTestCase.executor&quot;: &quot;Run&quot;,
+    &quot;Django tests.Test: clinica.tests.testServicioSalud.SimplePageTest.executor&quot;: &quot;Run&quot;,
+    &quot;Django tests.Test: clinica.tests.test_PaginaPaciente.SimplePageTest.executor&quot;: &quot;Run&quot;,
+    &quot;Django tests.Test: clinica.tests.test_PaginaPaciente.SimplePageTest.test_home_page.executor&quot;: &quot;Run&quot;,
+    &quot;Django tests.Test: clinica.tests.test_PaginaPrincipal.SimplePageTest.executor&quot;: &quot;Run&quot;,
+    &quot;Django tests.Test: clinica.tests.test_forms.UsuarioFormBlackBoxTest.executor&quot;: &quot;Run&quot;,
+    &quot;Django tests.Test: clinica.tests.test_forms.UsuarioFormBlackBoxTest.test_form_valido.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
     &quot;Python.manage.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.pycharm.django.structure.promotion.once.per.project&quot;: &quot;true&quot;,
     &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Feature-Jose&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/josem/OneDrive/Documentos/ClaseTendencias/EPS-PRUEBASOFT&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
@@ -77,8 +95,8 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Django Server.IPSSaludYVida">
-    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Django tests.Test: clinica.tests.test_forms.UsuarioFormBlackBoxTest.test_form_valido">
+    <configuration name="Test: clinica.tests.test_PaginaPaciente.SimplePageTest" type="DjangoTestsConfigurationType" temporary="true">
       <module name="IPSSaludYVida" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -87,18 +105,100 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="TARGET" value="clinica.tests.test_PaginaPaciente.SimplePageTest" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: clinica.tests.test_PaginaPaciente.SimplePageTest.test_home_page" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="IPSSaludYVida" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="clinica.tests.test_PaginaPaciente.SimplePageTest.test_home_page" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: clinica.tests.test_PaginaPrincipal.SimplePageTest" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="IPSSaludYVida" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="clinica.tests.test_PaginaPrincipal.SimplePageTest" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: clinica.tests.test_forms.UsuarioFormBlackBoxTest" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="IPSSaludYVida" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="clinica.tests.test_forms.UsuarioFormBlackBoxTest" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: clinica.tests.test_forms.UsuarioFormBlackBoxTest.test_form_valido" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="IPSSaludYVida" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="clinica.tests.test_forms.UsuarioFormBlackBoxTest.test_form_valido" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
       <method v="2" />
     </configuration>
     <configuration name="IPSSaludYVida" type="Python.DjangoServer" factoryName="Django server">
@@ -128,7 +228,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.manage" />
+        <item itemvalue="Django tests.Test: clinica.tests.test_forms.UsuarioFormBlackBoxTest.test_form_valido" />
+        <item itemvalue="Django tests.Test: clinica.tests.test_forms.UsuarioFormBlackBoxTest" />
+        <item itemvalue="Django tests.Test: clinica.tests.test_PaginaPaciente.SimplePageTest" />
+        <item itemvalue="Django tests.Test: clinica.tests.test_PaginaPaciente.SimplePageTest.test_home_page" />
+        <item itemvalue="Django tests.Test: clinica.tests.test_PaginaPrincipal.SimplePageTest" />
       </list>
     </recent_temporary>
   </component>
@@ -184,6 +288,12 @@
       <workItem from="1740786881133" duration="345000" />
       <workItem from="1740830371598" duration="203000" />
       <workItem from="1740830597465" duration="832000" />
+      <workItem from="1743718820727" duration="2658000" />
+      <workItem from="1743721526713" duration="2750000" />
+      <workItem from="1744152995465" duration="560000" />
+      <workItem from="1744155222920" duration="6605000" />
+      <workItem from="1744242089230" duration="2556000" />
+      <workItem from="1744252335657" duration="313000" />
     </task>
     <task id="LOCAL-00001" summary="Configuracion settings y Url">
       <option name="closed" value="true" />
@@ -250,5 +360,16 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/IPSSaludyVida$manage.coverage" NAME="manage Coverage Results" MODIFIED="1740332287088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/EPS_PRUEBASOFT$manage.coverage" NAME="manage Coverage Results" MODIFIED="1742424655168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/EPS_PRUEBASOFT$Test__clinica_tests_testServicioSalud_SimplePageTest.coverage" NAME="Test: clinica.tests.testServicioSalud.SimplePageTest Coverage Results" MODIFIED="1743722237386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/EPS_PRUEBASOFT$Test__clinica_tests_SimplePageTest.coverage" NAME="Test: clinica.tests.SimplePageTest Coverage Results" MODIFIED="1743721790031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/EPS_PRUEBASOFT$Test__clinica_tests_test_PaginaPrincipal_SimplePageTest.coverage" NAME="Test: clinica.tests.test_PaginaPrincipal.SimplePageTest Coverage Results" MODIFIED="1743723262985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/EPS_PRUEBASOFT$Test__clinica_tests_SimplePageTest_test_home_page.coverage" NAME="Test: clinica.tests.SimplePageTest.test_home_page Coverage Results" MODIFIED="1743721957543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/EPS_PRUEBASOFT$Test__clinica_tests_testServicioSalud_ServicioTestCase.coverage" NAME="Test: clinica.tests.testServicioSalud.ServicioTestCase Coverage Results" MODIFIED="1743720925214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/EPS_PRUEBASOFT$Test__clinica_tests_test_PaginaPaciente_SimplePageTest_test_home_page.coverage" NAME="Test: clinica.tests.test_PaginaPaciente.SimplePageTest.test_home_page Coverage Results" MODIFIED="1744153376256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/EPS_PRUEBASOFT$Test__clinica_tests_testServicioSalud_ServicioSaludTest.coverage" NAME="Test: clinica.tests.testServicioSalud.ServicioSaludTest Coverage Results" MODIFIED="1743720370668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/EPS_PRUEBASOFT$Test__clinica_tests_test_forms_UsuarioFormBlackBoxTest_test_form_valido.coverage" NAME="Test: clinica.tests.test_forms.UsuarioFormBlackBoxTest.test_form_valido Coverage Results" MODIFIED="1744155435906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/EPS_PRUEBASOFT$Test__clinica_tests_test_forms_UsuarioFormBlackBoxTest.coverage" NAME="Test: clinica.tests.test_forms.UsuarioFormBlackBoxTest Coverage Results" MODIFIED="1744155422634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/EPS_PRUEBASOFT$Test__clinica_tests_test_PaginaPaciente_SimplePageTest.coverage" NAME="Test: clinica.tests.test_PaginaPaciente.SimplePageTest Coverage Results" MODIFIED="1744155342614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
