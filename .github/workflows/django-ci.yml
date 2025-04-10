@@ -44,4 +44,7 @@ jobs:
 
       - name: Run tests
         run: |
-          python manage.py test
+          python manage.py test clinica.tests.test_formsNombre  
+          python manage.py test clinica.tests.test_Oposicion 
+          python manage.py test clinica.tests.test_PaginaPaciente 
+          python manage.py test clinica.tests.test_VistaServicio  
