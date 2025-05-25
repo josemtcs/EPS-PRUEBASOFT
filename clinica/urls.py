@@ -10,6 +10,7 @@ urlpatterns = [
     #path('', views.index, name='index'),
     path('servicios', ListaServicios.as_view(), name='servicios'),
 
+
     path('crear_servicio/', crear_servicio, name='crear_servicio'),
 
     path('crear_triage/', crear_triage, name='crear_triage'),

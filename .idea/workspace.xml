@@ -4,8 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9ad3342-7362-45fc-9e0d-7eed14c81958" name="Changes" comment="Se creo el archivo requirements.txt para probar nuevamente el workflow por eso me salia error">
+    <list default="true" id="b9ad3342-7362-45fc-9e0d-7eed14c81958" name="Changes" comment="Correcion del workflow por un error en el run test">
+      <change afterPath="$PROJECT_DIR$/Reporte de pruebas/Pruba_navegacion_y_contenido.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reporte de pruebas/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reporte-navegacion-contenido-BaseDATOS.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_playwright/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_playwright/test_basedatos.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_playwright/test_contenido.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_playwright/test_navegacion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/~$an de pruebas EPS.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.github/workflows/django-ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/django-ci.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_03_2025_6_39_p__m___Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_03_2025_6_39_p_ m__[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plan  de pruebas EPS.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Plan de pruebas EPS.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/clinica/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/layouts/layoutPrincipal.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layouts/layoutPrincipal.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,9 +35,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -58,30 +75,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Django Server.IPSSaludYVida.executor": "Run",
-    "Python.manage.executor": "Run",
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
-    "django.template.preview.state": "SHOW_EDITOR",
-    "git-widget-placeholder": "Feature-Jose",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/josem/OneDrive/Documentos/ClaseTendencias/EPS-PRUEBASOFT",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Django Server.IPSSaludYVida.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_basedatos.test_servicios_salud_database.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_contenido.test_contenido_index.executor&quot;: &quot;Run&quot;,
+    &quot;Python.manage.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.pycharm.django.structure.promotion.once.per.project&quot;: &quot;true&quot;,
+    &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Feature-Jose&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/josem/OneDrive/Documentos/ClaseTendencias/EPS-PRUEBASOFT&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Django Server.IPSSaludYVida">
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\josem\OneDrive\Documentos\ClaseTendencias\EPS-PRUEBASOFT\Reporte de pruebas" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Python tests for test_contenido.test_contenido_index">
     <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="IPSSaludYVida" />
       <option name="ENV_FILES" value="" />
@@ -130,8 +154,42 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test_basedatos.test_servicios_salud_database" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="IPSSaludYVida" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_playwright" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_basedatos.test_servicios_salud_database&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_contenido.test_contenido_index" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="IPSSaludYVida" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_playwright" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_contenido.test_contenido_index&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_contenido.test_contenido_index" />
+        <item itemvalue="Python tests.Python tests for test_basedatos.test_servicios_salud_database" />
         <item itemvalue="Python.manage" />
       </list>
     </recent_temporary>
@@ -188,6 +246,9 @@
       <workItem from="1740786881133" duration="345000" />
       <workItem from="1740830371598" duration="203000" />
       <workItem from="1740830597465" duration="832000" />
+      <workItem from="1745533760250" duration="93000" />
+      <workItem from="1745761099042" duration="10260000" />
+      <workItem from="1748188262574" duration="6035000" />
     </task>
     <task id="LOCAL-00001" summary="Configuracion settings y Url">
       <option name="closed" value="true" />
@@ -261,7 +322,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744253731383</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Correcion del workflow por un error en el run test">
+      <option name="closed" value="true" />
+      <created>1744254055402</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1744254055402</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,9 +355,11 @@
     <MESSAGE value="Creacion de pruebas del programa y tambien del workflow para actomatizar" />
     <MESSAGE value="Cambio de rama para probar el workflow en la rama Feature-Jose" />
     <MESSAGE value="Se creo el archivo requirements.txt para probar nuevamente el workflow por eso me salia error" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se creo el archivo requirements.txt para probar nuevamente el workflow por eso me salia error" />
+    <MESSAGE value="Correcion del workflow por un error en el run test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correcion del workflow por un error en el run test" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/IPSSaludyVida$manage.coverage" NAME="manage Coverage Results" MODIFIED="1740332287088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/EPS_PRUEBASOFT$.coverage" NAME=" Coverage Results" MODIFIED="1748190045568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_playwright" />
   </component>
 </project>

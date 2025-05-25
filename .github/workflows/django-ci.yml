@@ -48,3 +48,5 @@ jobs:
           python manage.py test clinica.tests.test_Oposicion 
           python manage.py test clinica.tests.test_PaginaPaciente 
           python manage.py test clinica.tests.test_VistaServicio  
+          pytest test_playwright/ 
+
