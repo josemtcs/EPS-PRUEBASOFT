@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9ad3342-7362-45fc-9e0d-7eed14c81958" name="Changes" comment="Probar algo de workflow">
+      <change afterPath="$PROJECT_DIR$/reporteDB.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.github/workflows/django-ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/django-ci.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_playwright/test_navegacion.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_playwright/test_navegacion.py" afterDir="false" />
@@ -233,7 +234,7 @@
       <workItem from="1740830597465" duration="832000" />
       <workItem from="1745533760250" duration="93000" />
       <workItem from="1745761099042" duration="10260000" />
-      <workItem from="1748188262574" duration="7906000" />
+      <workItem from="1748188262574" duration="8828000" />
     </task>
     <task id="LOCAL-00001" summary="Configuracion settings y Url">
       <option name="closed" value="true" />
@@ -331,7 +332,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748196028475</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Probar algo de workflow">
+      <option name="closed" value="true" />
+      <created>1748196719153</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1748196719153</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
