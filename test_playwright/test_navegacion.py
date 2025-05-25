@@ -3,7 +3,7 @@ from playwright.sync_api import sync_playwright
 
 def test_navegacion():
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=False)
+        browser = p.chromium.launch(headless= True)
         page = browser.new_page()
 
         base_url = "http://127.0.0.1:8000"
